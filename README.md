@@ -1,2 +1,2 @@
-# java-prosjekt
-Diverse prosjekter i java
+# Java-prosjekt
+Diverse prosjekter i utført i Java
