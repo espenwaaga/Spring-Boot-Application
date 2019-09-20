@@ -40,4 +40,4 @@ jobs:
       # run tests!
       - run: mvn test
       - run: mvn integration-test
-      - run: echo Hello World from circleCI
+      - run: echo Hello World from circleCI!
