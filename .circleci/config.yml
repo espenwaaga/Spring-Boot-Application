@@ -54,6 +54,7 @@ jobs:
       - run: mvn integration-test
       - run: echo Hello World from circleCI!
 
+
 workflows:
   version: 2
   build-and-test:
