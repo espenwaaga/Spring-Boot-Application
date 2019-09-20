@@ -30,7 +30,7 @@ jobs:
     working_directory: ~/repo
 
     steps:
-      - # Download and cache dependencies
+      # Download and cache dependencies
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "pom.xml" }}
@@ -44,7 +44,7 @@ jobs:
             - ~/.m2
           key: v1-dependencies-{{ checksum "pom.xml" }}
 
-          
+
       - run: echo Test step
       - run: mvn test
       - run: mvn integration-test
