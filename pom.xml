@@ -11,6 +11,8 @@
 
     <modules>
         <module>core</module>
+        <module>webapp</module>
+        <module>service</module>
     </modules>
 
     <properties>
