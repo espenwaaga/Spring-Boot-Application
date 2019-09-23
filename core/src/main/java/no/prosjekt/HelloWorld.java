@@ -1,4 +1,4 @@
-package no.prosjekt.nav;
+package no.prosjekt;
 
 public class HelloWorld {
     public static void main(String[] args) {
