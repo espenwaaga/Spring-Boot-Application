@@ -71,13 +71,7 @@ workflows:
       - test:
           requires:
             - build
-      - test-environment:
-          requires:
-            - test
-          filters:
-            branch:
-              ignore:
-                - master
+
       - deploy:
           requires:
             - test
