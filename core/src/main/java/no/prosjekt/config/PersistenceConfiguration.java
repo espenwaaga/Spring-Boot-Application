@@ -1,7 +1,5 @@
 package no.prosjekt.config;
 
-import com.zaxxer.hikari.HikariDataSource;
-import org.flywaydb.core.internal.database.h2.H2Database;
 import org.springframework.boot.autoconfigure.flyway.FlywayDataSource;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
