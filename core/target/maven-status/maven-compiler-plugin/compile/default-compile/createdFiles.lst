@@ -4,3 +4,4 @@ no\prosjekt\config\PersistenceConfiguration.class
 no\prosjekt\controller\HomeController.class
 no\prosjekt\controller\ShipwreckStub.class
 no\prosjekt\model\Shipwreck.class
+no\prosjekt\repository\ShipwreckRepository.class
