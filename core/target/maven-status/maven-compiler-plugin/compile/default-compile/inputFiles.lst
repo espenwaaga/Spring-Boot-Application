@@ -1,1 +1,6 @@
-C:\dev\workspace\java-prosjekt\core\src\main\java\no\prosjekt\HelloWorld.java
+C:\dev\workspace\java-prosjekt\core\src\main\java\no\prosjekt\controller\ShipwreckController.java
+C:\dev\workspace\java-prosjekt\core\src\main\java\no\prosjekt\model\Shipwreck.java
+C:\dev\workspace\java-prosjekt\core\src\main\java\no\prosjekt\config\PersistenceConfiguration.java
+C:\dev\workspace\java-prosjekt\core\src\main\java\no\prosjekt\controller\ShipwreckStub.java
+C:\dev\workspace\java-prosjekt\core\src\main\java\no\prosjekt\App.java
+C:\dev\workspace\java-prosjekt\core\src\main\java\no\prosjekt\controller\HomeController.java
