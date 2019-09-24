@@ -1,15 +1,13 @@
 package no.prosjekt.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Shipwreck {
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
     Long id;
+    @Column(nullable=false)
     String name;
     String description;
     String condition;
@@ -17,6 +15,10 @@ public class Shipwreck {
     Double latitude;
     Double longitude;
     Integer yearDiscovered;
+
+    public Shipwreck(){
+
+    }
 
     public Shipwreck(Long id, String name, String description, String condition, Integer depth, Double latitude, Double longitude, Integer yearDiscovered) {
         this.id = id;
