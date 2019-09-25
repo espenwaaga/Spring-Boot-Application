@@ -1,6 +1,8 @@
 # Compiled class file
 *.class
-target
+core/target/
+service/target/
+webapp/target/
 # Log file
 *.log
 .idea
